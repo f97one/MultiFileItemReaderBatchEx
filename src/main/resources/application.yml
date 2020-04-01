@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    initialization-mode: never
+    sql-script-encoding: UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/multifile?characterEncoding=utf8&tinyInt1isBit=false&useUnicode=true
+    username: multifileuser
+    password: multifileuser
+  batch:
+    initialize-schema: never
